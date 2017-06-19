@@ -1,0 +1,71 @@
+
+show interfaces status
+
+
+Switch#
+show interfaces status
+
+Port    Name               Status       Vlan       Duplex  Speed Type
+Gi1/1                      notconnect   1            auto   auto No Gbic
+Gi1/2                      notconnect   1            auto   auto No Gbic
+Gi5/1                      notconnect   1            auto   auto 10/100/1000-TX
+Gi5/2                      notconnect   1            auto   auto 10/100/1000-TX
+Gi5/3                      notconnect   1            auto   auto 10/100/1000-TX
+Gi5/4                      notconnect   1            auto   auto 10/100/1000-TX
+Fa6/1                      connected    1          a-full  a-100 10/100BaseTX
+Fa6/2                      connected    2          a-full  a-100 10/100BaseTX
+Fa6/3                      notconnect   1            auto   auto 10/100BaseTX
+Fa6/4                      notconnect   1            auto   auto 10/100BaseTX
+Switch#
+
+
+Port      Name      Status      Vlan      Duplex      Speed      Type
+
+
+Fa0/1                notconnect      1           auto      auto           10/100BaseTX
+Fa0/2                notconnect      1           auto      auto           10/100BaseTX
+Fa0/3                notconnect      1           auto      auto           10/100BaseTX
+Fa0/4                connected       1           a-full      a-100         10/100BaseTX
+Fa0/5                connected       1           a-full      a-100         10/100BaseTX
+
+etc...
+
+
+Cisco IOS Software, C3750 Software (C3750-IPSERVICESK9-M), Version 12.2(55)SE5, RELEASE S
+
+ 
+
+3750#sh interfaces status
+
+Port      Name               Status       Vlan       Duplex  Speed Type
+Fa1/0/1                      connected    trunk      a-full  a-100 10/100BaseTX
+Fa1/0/2                      connected    trunk      a-full  a-100 10/100BaseTX
+Fa1/0/3                      connected    trunk      a-full  a-100 10/100BaseTX
+
+ 
+
+Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 12.2(55)SE5
+
+ 
+
+3560#sh interfaces status
+
+Port      Name               Status       Vlan       Duplex  Speed Type
+Fa0/1                        connected    trunk      a-full  a-100 10/100BaseTX
+Fa0/2                        connected    trunk      a-full  a-100 10/100BaseTX
+Fa0/3                        connected    trunk      a-full  a-100 10/100BaseTX
+Fa0/4                        notconnect   1            auto   auto 10/100BaseTX
+
+ 
+
+Cisco IOS Software, C3550 Software (C3550-IPSERVICESK9-M), Version 12.2(44)SE6,
+
+ 
+
+3550#sh interfaces status
+
+Port      Name               Status       Vlan       Duplex  Speed Type
+Fa0/1                        connected    trunk      a-full  a-100 10/100BaseTX
+Fa0/2                        connected    trunk      a-full  a-100 10/100BaseTX
+Fa0/3                        connected    trunk      a-full  a-100 10/100BaseTX
+Fa0/4                        notconnect   1            auto   auto 10/100BaseTX
